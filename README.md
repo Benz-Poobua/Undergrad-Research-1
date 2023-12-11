@@ -33,3 +33,20 @@ The Yakima Valley has experienced prolonged subsidence, up to 10 cm since 2017, 
 
 While the subsidence mechanism in the Yakima Valley remains unclear, the persistent nature of the subsidence signals a need for close monitoring of agricultural activities, particularly in vineyards. Further geotechnical surveys, including assessments of groundwater levels and shallow subsurface geology, are essential to understand the situation comprehensively. This approach will contribute to a more informed assessment of potential risks and mitigation strategies.
 
+## References
+Amelung, F., Galloway, D. L., Bell, J. W., Zebker, H. A., & Laczniak, R. J. (1999). Sensing the ups and downs of Las Vegas: InSAR reveals structural control of land subsidence and aquifer-system deformation. Geology, 27(6), 483-486.
+
+Burns, E. R., Morgan, D. S., Peavler, R. S., & Kahle, S. C. (2011). Three-dimensional model of the geologic framework for the Columbia Plateau Regional Aquifer System, Idaho, Oregon, and Washington (No. 2010-5246). US Geological Survey.
+
+McCaffrey, R., King, R. W., Wells, R. E., Lancaster, M., & Miller, M. M. (2016). Contemporary deformation in the Yakima fold and thrust belt estimated with GPS. Geophysical Journal International, 207(1), 1-11.
+
+Nation, Y. (2009). Hydrogeologic framework of the Yakima River basin aquifer system, Washington.
+
+Norman, D. K., Busacca, A. J., & Teissere, R. (2004). Geology of the Yakima Valley Wine Country--a Geologic Field Trip Guide from Stevenson to Zillah, Washington. Washington State Department of Natural Resources, Division of Geology and Earth Resources.
+
+Reidel, S. P., Martin, B. S., & Petcovic, H. L. (2003). The Columbia River flood basalts and the Yakima fold belt.
+
+Yakima Valley AVA. Washington State Wine Commission. (2023, September 8). https://www.washingtonwine.org/resource/yakima-valley-ava/ 
+
+Yunjun, Zhang, Heresh Fattahi, and Falk Amelung. "Small baseline InSAR time series analysis: Unwrapping error correction and noise reduction." Computers & Geosciences 133 (2019): 104331.
+
