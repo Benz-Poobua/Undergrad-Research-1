@@ -1,2 +1,16 @@
-# Undergrad-Research-1
-This is the first undergraduate research for AUT 23 at University of Washington. 
+# Undergraduate-Research-1
+## Abstract
+Yakima Valley, located in south-central Washington in the Columbia Plateau Regional Aquifer System (CPRAS), plays an essential role in agricultural activity: around one-third of the state’s vineyards. The area’s aquifer and land subsidence measurements have not been closely monitored or recorded in recent years. That leads to the question of the extent of the land subsidence of uplift due to the irrigation (i.e., groundwater use) and climate change (frequent droughts) that the Yakima Valley has experienced since 2017.  Land subsidence was detected by Interferometric Synthetic Aperture Radar (InSAR) by Sentinel-1 from 2017 to 2022. Minpy algorithm and SBAS are used to select interferometric pairs and analyze the deformation time series. The InSAR time series reveals the Yakima Valley has experienced land subsidence of up to 10 cm since 2017. The lithology in the area and the groundwater level measurements are encouraged to monitor the irrigation and determine the likelihood of the subsurface’s inelastic compaction.
+## Introduction
+Yakima Valley is situated in south-central Washington in the Columbia Plateau Regional Aquifer System (CPRAS) and holds a position of paramount importance in the agricultural industry: around one-third of the state’s vineyards (“Yakima Valley AVA,” 2023; Burns et al., 2011; Norman et al., 2004; Nation, 2009). This region relies heavily on its local aquifers, along with the Yakima River, which bisects the appellation for irrigation water supplies (“Yakima Valley AVA,” 2023). 
+
+The geological framework underlying Yakima Valley comprises the Columbia River Basalt Group (CRBG), which erupted between 17 and 5.5 Ma (Reidel et al., 2003), coupled with overlying basin-fill sediments or overburden. Overburden is deposits of undifferentiated unconsolidated to semi-consolidated sedimentary materials spanning from the Miocene to Holocene epochs (Burns et al., 2011). Burns et al. (2011) also modeled the thickness of the overburden unit, which revealed the presence of significant, thick overburden strata within the valley.
+
+A generalized geologic model has been established, which categorizes geological units within the region, including Overburden and five formations: Saddle Mountains Basalt, Mabton Interbed, Wanapum Basalt, Vantage Interbed, Grande Ronde Basalt, and Older Bedrock (Burns et al., 2011; Nation, 2009). As  ​​ Amelung et al. (1999) suggested, clay thickness controls the extent and magnitude of subsidence. However, the stratigraphy of the overburden is not studied or recorded thoroughly. 
+
+Furthermore, Yakima Valley resides within the Yakima Fold and Thrust Belt (YFTB), an ongoing deformation series of faults and folds spanning northern Oregon and south-central Washington. The Folding and faulting of the basalt formations in the western part of the Columbia Basin, known as YFTB, originated concurrently with the CRGB eruptions. It has played a crucial role in shaping the topography of the Yakima Valley and the surrounding landscape (McCaffrey et al., 2016). Faults in the study area have the potential to act as a barrier to groundwater flow, leading to land subsidence. 
+
+These considerations prompt the following questions: Is the Yakima Valley experiencing subsidence, uplift, or oscillation? And, do the observed deformations elicit concerns among farmers or residents in the region?
+
+## Methodology
+
