@@ -11,20 +11,25 @@ A generalized geologic model has been established, which categorizes geological 
 Furthermore, Yakima Valley resides within the Yakima Fold and Thrust Belt (YFTB), an ongoing deformation series of faults and folds spanning northern Oregon and south-central Washington. The Folding and faulting of the basalt formations in the western part of the Columbia Basin, known as YFTB, originated concurrently with the CRGB eruptions. It has played a crucial role in shaping the topography of the Yakima Valley and the surrounding landscape (McCaffrey et al., 2016). Faults in the study area have the potential to act as a barrier to groundwater flow, leading to land subsidence. 
 
 These considerations prompt the following questions: Is the Yakima Valley experiencing subsidence, uplift, or oscillation? And, do the observed deformations elicit concerns among farmers or residents in the region?
+
  ![Alt text](https://github.com/Benz-Poobua/Undergraduate-Research-1/blob/main/aoi.png)
 Figure 1. The Yakima Valley is the area of interest (AOI), represented by the red rectangle. This area is bounded by Ahtanum Ridge and Horse Heaven Hill Ridge.
 ## Methodology
 We utilized InSAR with the Sentinel-1 (C-band) satellite to detect land subsidence in the Yakima Valley. Data from 2017 to 2022 was gathered from ascending frames accessed through the Vertex Data Portal maintained by the Alaska SAR Facility (ASF). Two advanced algorithms were utilized for stacking and time-series analysis. The Short Baseline Subsets (SBAS) filter was employed to select interferogram pairs based on two criteria: a perpendicular baseline of less than 100 m and a temporal baseline ranging from 24 to 60 days, resulting in the selection of 153 interferogram pairs (Fig. 2). Additionally, the Miami INsar Time-series software in PYthon (MintPy) provided by OpenSARlab was employed to construct time series and perform stacking within the designated area. 
+
  ![Alt text](https://github.com/Benz-Poobua/Undergraduate-Research-1/blob/main/sbas.png)
 Figure 2. The interferogram pairs are selected using SBAS. 
 
 After defining and downloading the study area, our initial step involved obtaining the UID and API key to access the Climate Data Store (CDS), which hosts a database of atmospheric pressure crucial for tropospheric delay correction. Following this, we established the reference point using MinPy's default approach, wherein the algorithm automatically selected a pixel with the highest spatial coherence in the stack. Subsequently, we applied inversion to the small baseline network, enabling the calculation of the time series for the unwrapped phase concerning the first acquisition. To refine the data, we addressed interferograms by correcting tropospheric delay from ERA5 and DEM errors, incorporating phase deramping to eliminate long-wavelength component noise. The detailed procedure of this algorithm (Fig. 3) was thoroughly documented by Yunjun et al. (2019). In the MinPy sign convention, negative phase values indicate subsidence, while positive values signify uplift.
+
 ![Alt text](https://github.com/Benz-Poobua/Undergraduate-Research-1/blob/main/minpy.png)
 Figure 3. The algorithm of MinPy by Yunjun et al. (2019)
 ## Result
 The time series of interferograms was derived from the preceding steps, revealing temporal variations in phase differences across 153 selected interferograms. A subset of these, showcasing both land subsidence and uplift in the area, is available in the Supplementary Data section (Fig. S1-S7). These interferograms represent phase data from December 2016 to 2022, indicating dynamic changes in the region over time. The stacked interferogram (Fig. 4) visualizes the velocity in the line of sight (LOS) direction, highlighting a subsidence trend in the Yakima Valley or irrigation region. Additionally, examining a specific point (46.40327, -120.46686) in the stacked interferogram reveals a linear trend (Fig. 5) in displacement with a velocity or slope of -1.43 cm/yr (subsidence). The distribution of area displacement around the trend line suggests both uplift and subsidence, influenced by seasonal factors such as precipitation, discharge, and recharge time. The graph indicates that the Yakima Valley has experienced subsidence of up to 10 cm since 2017.
+
 ![Alt text](https://github.com/Benz-Poobua/Undergraduate-Research-1/blob/main/stacking.png)
 Figure 4. The stacked interferogram was obtained from the selected time frame. The Yakima Valley is decorrelated by agricultural activities. 
+
 ![Alt text](https://github.com/Benz-Poobua/Undergraduate-Research-1/blob/main/trend.png)
 Figure 5. The selected point (46.40327, -120.46686) displays the subsidence trend. For the sign convention, negative values mean the increase in range in the LOS direction. Positive values represent the decrease in range in the LOS direction. 
 ## Discussion
