@@ -40,6 +40,9 @@ The Yakima Valley has experienced prolonged subsidence, up to 10 cm since 2017, 
 
 While the subsidence mechanism in the Yakima Valley remains unclear, the persistent nature of the subsidence signals a need for close monitoring of agricultural activities, particularly in vineyards. Further geotechnical surveys, including assessments of groundwater levels and shallow subsurface geology, are essential to understand the situation comprehensively. This approach will contribute to a more informed assessment of potential risks and mitigation strategies.
 
+## Acknowledgement
+I sincerely appreciate Professor David Schmidt (dasc@uw.edu) for his exceptional guidance and steadfast support throughout my research endeavor. Serving as my research supervisor, Prof. Schmidt has enriched my understanding of InSAR's theoretical complexities and shared invaluable insights and advice regarding the project, dataset, and data interpretation. His expertise and mentorship have played a pivotal role in shaping my research trajectory, and I am genuinely grateful for the opportunities to learn and develop under his guidance.
+
 ## References
 Amelung, F., Galloway, D. L., Bell, J. W., Zebker, H. A., & Laczniak, R. J. (1999). Sensing the ups and downs of Las Vegas: InSAR reveals structural control of land subsidence and aquifer-system deformation. Geology, 27(6), 483-486.
 
